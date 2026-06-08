@@ -82,8 +82,6 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
 1. I logged in to the AWS Management Console and launched an EC2 instance using Amazon Linux
 
 2. I configured the security group to allow SSH (port 22) and database port (3306/5432) access.
