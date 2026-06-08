@@ -70,6 +70,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** HARSHADHARSHINI R (212224230089)
-**Course:** Introduction to Cloud Computing  
+## Name: HARSHADHARSHINI R (212224230089)
+## Course: Introduction to Cloud Computing  
 
