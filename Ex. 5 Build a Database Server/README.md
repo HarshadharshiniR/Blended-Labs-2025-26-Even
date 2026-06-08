@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARSHADHARSHINI R
+* **Register Number**: 212224230089
+* **Date of Submission**: 08/06/2026
 
 ---
 
@@ -84,11 +84,15 @@ Test the database server by connecting to it locally or remotely and performing 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. I logged in to the AWS Management Console and launched an EC2 instance using Amazon Linux
+
+2. I configured the security group to allow SSH (port 22) and database port (3306/5432) access.
+
+3.I connected to the EC2 instance using SSH from my local machine.
+
+4.I installed a database server (MySQL/MariaDB/PostgreSQL) and started the service.
+
+5.I created a sample database, table, inserted records, and tested the database using SQL queries.
 
 ---
 
@@ -96,19 +100,21 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/0902640d-9f54-431a-b030-20079bbb1752" />
+
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1918" height="959" alt="image" src="https://github.com/user-attachments/assets/59f14547-a339-440c-963e-a3a248be6591" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1919" height="1085" alt="image" src="https://github.com/user-attachments/assets/6eae2a44-bdaa-41ea-862f-ebbbd8877b26" />
+
 
 ---
 
