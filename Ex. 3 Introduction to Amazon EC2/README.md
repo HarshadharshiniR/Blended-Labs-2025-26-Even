@@ -63,7 +63,6 @@ This security group acts as a firewall for the instance.
 Connect to the running EC2 instance using SSH. Use the downloaded key pair and connect via terminal or PuTTY.
 
 For Amazon Linux:
-
 ```
 ssh -i "keyname.pem" ec2-user@<Public-IP>
 ```
@@ -98,11 +97,15 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. The EC2 Dashboard was accessed through the AWS Management Console to explore the Amazon EBS volume types.
+
+2. A new EBS volume was created by selecting the volume type, size, and the same Availability Zone as the EC2 instance.
+
+3. The created EBS volume was attached to the running EC2 instance as an additional block device.
+
+4. The attached volume was formatted using the ext4 file system and mounted to a directory in the EC2 instance.
+
+5. Sample data was stored in the mounted volume, and after rebooting the instance, data persistence was verified successfully.
 
 ---
 
@@ -110,19 +113,21 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1920" height="966" alt="image" src="https://github.com/user-attachments/assets/e1988c29-13eb-4be3-8e77-b4e0c48cbf48" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1920" height="1141" alt="image" src="https://github.com/user-attachments/assets/d06c81b7-ecf0-4337-9460-ae073ef19ada" />
+
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1920" height="990" alt="image" src="https://github.com/user-attachments/assets/c9933388-b4d9-4261-aec1-ad038f7de715" />
+
 
 ---
 
